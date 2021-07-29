@@ -2,6 +2,13 @@ SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
+-- Create schema
+-- ----------------------------
+
+DROP DATABASE IF EXISTS `taxi`;
+CREATE DATABASE `taxi`;
+
+-- ----------------------------
 -- Table structure for drivers
 -- ----------------------------
 DROP TABLE IF EXISTS `drivers`;
