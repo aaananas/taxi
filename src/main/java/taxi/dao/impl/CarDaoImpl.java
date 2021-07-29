@@ -40,6 +40,7 @@ public class CarDaoImpl implements CarDao {
             logger.error(String.format("Couldn't add car %s to DB", car), car);
             throw new DataProcessingException("Can't create car " + car, e);
         }
+        logger.info("Car {} was added to DB", car);
         insertAllDrivers(car);
         logger.info("Car {} was added to DB", car);
         return car;
