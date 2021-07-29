@@ -6,10 +6,9 @@ As a user you can register yourself as a driver.
 After registration, you will be able to login (using login and password)
 and see information about another drivers, cars, drivers cars, assign driver to a car.
 Also all information about your actions will be logged
-in a local file on your computer (search logs/app.log in directory with, also you 
-can change location in log4j2.xml).
+in a local file on your computer.
 The project is written using N-tier architecture, used Custom Injector
-to achieve loose coupling
+to achieve loose coupling.
 
 ---------------
  _**Technologies used**_:
@@ -29,4 +28,4 @@ to achieve loose coupling
 - Install and configure Local Tomcat Server (set "/" in Deployment - taxi-service:war exploded).
 - To enter the application create a new driver by clicking on the "Registration" button.
 - Download MySQL, Workbench. In resources folder you can find init_db.sql file copy and paste it in Workbench console and execute code there. In ConnectionUtil class put your DBUrl, username, password and JDBC Driver (left my data, find something similar, don't hack me plizz ;D)
-
+- Search logs/app.log in directory, also you can change location in log4j2.xml
