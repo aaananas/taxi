@@ -5,8 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>pet.project</groupId>
-    <artifactId>taxi</artifactId>
+    <artifactId>taxi-service</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
 
     <properties>
         <jdk.version>11</jdk.version>
