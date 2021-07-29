@@ -1,6 +1,12 @@
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
+-- ------------
+-- CREATE DATABASE 
+------------
+
+CREATE DATABASE taxi
+
 -- ----------------------------
 -- Table structure for drivers
 -- ----------------------------
