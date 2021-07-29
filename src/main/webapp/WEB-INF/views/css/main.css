@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Arial Black";
+}
+body {
+    background: black;
+}
+.content {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    width: 80vw;
+    margin: 0 auto;
+}
+.flex {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3em;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+table {
+    margin-top: 5vh;
+}
+p {
+    font-size: 2em;
+    color: white;
+}
+
+td, tr {
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+}
+
+th, td {
+    margin : 10px;
+}
+
+form {
+    margin-top: 10vh;
+    display: none;
+}
+
+input, button {
+    padding: 10px;
+    margin: 2vh;
+    font-size: 2em;
+    width: fit-content;
+}
+
+button {
+    margin-top: 6vh;
+}
+
+p {
+    margin-top: 3vh;
+}
+
+a {
+    margin-top: 10vh;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+table a {
+    font-size: 0.5em;
+}
+
+h2 {
+    margin: 2vh;
+}
