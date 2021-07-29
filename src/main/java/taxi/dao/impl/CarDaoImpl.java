@@ -1,5 +1,6 @@
-package taxi.dao;
+package taxi.dao.impl;
 
+import taxi.dao.CarDao;
 import taxi.exception.DataProcessingException;
 import taxi.lib.Dao;
 import taxi.model.Car;
