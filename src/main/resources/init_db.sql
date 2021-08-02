@@ -8,6 +8,13 @@ SET FOREIGN_KEY_CHECKS = 0;
 CREATE DATABASE `taxi`;
 
 -- ----------------------------
+-- Create schema
+-- ----------------------------
+
+DROP DATABASE IF EXISTS `taxi`;
+CREATE DATABASE `taxi`;
+
+-- ----------------------------
 -- Table structure for drivers
 -- ----------------------------
 DROP TABLE IF EXISTS `drivers`;
